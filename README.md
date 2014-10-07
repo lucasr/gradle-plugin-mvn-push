@@ -10,7 +10,7 @@ in which you add the following to the end of each `build.gradle` that you wish t
 upload.
 
 ```groovy
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: 'https://raw.github.com/lucasr/gradle-plugin-mvn-push/master/gradle-plugin-mvn-push.gradle'
 ```
 
 ## License
