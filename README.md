@@ -1,12 +1,13 @@
 gradle-plugin-mvn-push
 ======================
 
-Equivalent to Chris Banes' gradle-mvn-push script but for gradle plugins written
-in Groovy.
+Equivalent to Chris Banes' [gradle-mvn-push](https://github.com/chrisbanes/gradle-mvn-push)
+script but for Gradle custom plugins written in Groovy.
 
-Instructions are pretty much the same than gradle-mvn-push, the only difference
-being step 5 in which you add the following to the end of each `build.gradle`
-that you wish to upload.
+[Instructions](https://github.com/chrisbanes/gradle-mvn-push/blob/master/README.md)
+are pretty much the same than `gradle-mvn-push`, the only difference being *step 5*,
+in which you add the following to the end of each `build.gradle` that you wish to
+upload.
 
 ```groovy
 apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
