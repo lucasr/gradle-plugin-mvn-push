@@ -6,11 +6,11 @@ script but for Gradle custom plugins written in Groovy.
 
 [Instructions](https://github.com/chrisbanes/gradle-mvn-push/blob/master/README.md)
 are pretty much the same than `gradle-mvn-push`, the only difference being *step 5*,
-in which you add the following to the end of each `build.gradle` that you wish to
-upload.
+in which you should [download](https://raw.github.com/lucasr/gradle-plugin-mvn-push/master/gradle-plugin-mvn-push.gradle) the `gradle-plugin-mvn-push` script into your source tree and add the following to the end of
+the `build.gradle` that you wish to upload.
 
 ```groovy
-apply from: 'https://raw.github.com/lucasr/gradle-plugin-mvn-push/master/gradle-plugin-mvn-push.gradle'
+apply from: 'gradle-plugin-mvn-push.gradle'
 ```
 
 ## License
